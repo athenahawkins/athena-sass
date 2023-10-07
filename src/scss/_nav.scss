@@ -5,5 +5,14 @@
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
-  color: $secondary-color;
+  color: $secondary-color; //I thought the secondary color looked better
+
+  a, a:visited {
+    color: $primary-color;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }

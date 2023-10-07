@@ -1,7 +1,6 @@
 .content {
-  // any children rule padding
   > * {
-    padding-left: 30px;
+    padding-left: 30px;  // any children rule padding
   }
 
   width: 85%;
@@ -12,11 +11,24 @@
   p {
     width: 55%;
     min-width: 550px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  ul {
+    font-size: 1.5rem; // Sets list font size 
+    line-height: 2.25;  //Sets line height font size
+    list-style: circle;
+    list-style-position: inside;
   }
 
   img, video {
     height: 350px;
     width: 550px;
     margin-bottom: 30px;
+  }
+
+  a:visited { 
+    color: midnightblue; //changes the color of the visited click here link
   }
 }  
